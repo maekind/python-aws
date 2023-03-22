@@ -63,11 +63,12 @@ Follow this link for more information on [AWS credentials](https://docs.aws.amaz
 `$> python3 upload.py -b my-bucket -f my-file.txt -r folder1/subfolder3`
 
 
-
-<!-- ## Contributors
+## Contributors
 
 <a href="https://github.com/maekind/python-aws/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=maekind/python-aws" />
 </a>
+<br/>
+<br/>
+<a href="mailto:marco@marcoespinosa.es"> Say hello!</a>
 
-<a href="mailto:marco@marcoespinosa.es">Say hello!</a> -->
