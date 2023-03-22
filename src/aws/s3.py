@@ -7,6 +7,7 @@ import logging
 import boto3  #  aws library
 from botocore.exceptions import ClientError  #  aws library
 from aws.progress import ProgressPercentage
+from aws.utils.decorators import Logging, System
 
 
 class S3Bucket:
@@ -65,6 +66,8 @@ class S3Bucket:
 
         return True
 
+    @Logging.trace_debug("Launching run ...")
+    @System.execution_time
     def run(self):
         """ Public method for running defined actions """
         if self._local_folder:
