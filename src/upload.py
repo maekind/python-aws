@@ -6,7 +6,7 @@ import sys
 import logging
 import argparse
 from aws.utils.logger import Logger
-from aws.aws_wrapper import S3Bucket
+from aws.s3 import S3Bucket
 
 __application_name__ = "AWS S3 uploader"
 
