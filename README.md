@@ -52,15 +52,15 @@ Follow this link for more information on [AWS credentials](https://docs.aws.amaz
 
 ### Upload a file to a bucket
 
-`$> python3 main -b my-bucket -f my-file.txt`
+`$> python3 upload.py -b my-bucket -f my-file.txt`
 
 ### Upload a complete folder and subdolfers to a bucket
 
-`$> python3 main -b my-bucket -d my-folder`
+`$> python3 upload.py -b my-bucket -d my-folder`
 
 ### Upload a file to specific folder in to a bucket
 
-`$> python3 main -b my-bucket -f my-file.txt -r folder1/subfolder3`
+`$> python3 upload.py -b my-bucket -f my-file.txt -r folder1/subfolder3`
 
 
 
