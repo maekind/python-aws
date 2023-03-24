@@ -2,6 +2,7 @@
 *.ipynb
 # Ressources
 images/
+*.json
 
 # Tests
 test/
